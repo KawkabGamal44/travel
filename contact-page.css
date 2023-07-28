@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body{
+    background-image: url(bachground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #001219;
+
+}
+
+.text{
+    text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #001219;
+  text-shadow: 0 0 3px blue;
+
+}
+
+.shadow-lg{
+    width: 400px;
+    display: flex;
+    justify-content: right;
+    margin-left: 20%;
+
+}
+
+.container-xl{
+    display: flex;
+    justify-content: center;
+}
+
+.formRow{
+    margin: 4px 4px;
+}
+
+
+@media (min-width:700px) {
+    .shadow-lg{
+        margin-left: 70%;
+    }
+}
+
+
+
+
+  
+ 
+  
